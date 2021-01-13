@@ -1,4 +1,3 @@
-//User could change these data.
 /**
  * Customer could change these data such as images, avatars, texts
  * In this example, customer should change the Title of the games, message on startup...
@@ -7,26 +6,27 @@
  * @title Title of the app
  * @message Message to end-user
  * @color App's color
+ * @google_analytics_code Google analytics code should be here
  */
 var data = {
   title: {
     name: "Title",
-    description: "Enter the game title here",
-    data: "This is 2048",
+    placeholder: "Enter the game title here",
+    default_value: "This is 2048",
   },
   message: {
     name: "Message",
-    description: "Message to the gamer",
-    data: "This is 2048",
+    placeholder: "Message to the gamer",
+    default_value: "This is 2048",
   },
   color: {
     name: "Color",
-    description: "Color for the app",
-    data: "#ad3931",
+    placeholder: "Color for the app",
+    default_value: "#ad3931",
   },
   google_analytics_code: {
     name: "Google Analytics",
-    description: "Enter Google analystic code here",
-    data: "UA-XXXX-XXX",
-  }, //analytics
+    placeholder: "Enter Google analystic code here",
+    default_value: "UA-XXXX-XXX",
+  },
 };
